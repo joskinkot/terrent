@@ -1,0 +1,25 @@
+{
+  "name": "terrent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Terminal torrent client powered by WebTorrent",
+  "type": "module",
+  "bin": {
+    "terrent": "bin/terrent.js"
+  },
+  "scripts": {
+    "start": "node bin/terrent.js"
+  },
+  "dependencies": {
+    "webtorrent": "^3.0.21"
+  },
+  "allowScripts": {
+    "node-datachannel": true,
+    "bufferutil": true,
+    "utf-8-validate": true,
+    "utp-native": true
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
